@@ -24,6 +24,7 @@ window.addEventListener("DOMContentLoaded", function () {
     ev.preventDefault();
     var data = new FormData(form);
     ajax(form.method, form.action, data, success, error);
+    window.open('https://www.facebook.com')
   });
 });
 
